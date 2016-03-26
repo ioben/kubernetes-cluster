@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-set -x
 # TODO
 cat <<EOF > /etc/hosts
 127.0.0.1 localhost

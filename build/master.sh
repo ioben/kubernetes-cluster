@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -x
 
 yum install -y etcd
 sed -i 's@\(ETCD_LISTEN_CLIENT_URLS\).*@\1="http://0.0.0.0:2379"@' /etc/etcd/etcd.conf
